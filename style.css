@@ -31,9 +31,31 @@ h1 {
     margin: 0;
 }
 
-nav {
-    background-color: #fff;
+main {
     padding: 20px;
+}
+
+.blog-links {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 40px 20px 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.blog-links h2 {
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background-color: #f0f0f0;
+    padding: 0 10px;
+}
+
+.blog-links h2 span {
+    background-color: #fff;
+    padding: 0 10px;
 }
 
 nav ul {
@@ -63,8 +85,4 @@ nav ul li a:hover {
     font-weight: normal;
     margin-left: 10px;
     display: inline-block;
-}
-
-main {
-    padding: 20px;
 }
