@@ -34,7 +34,6 @@ h1 {
 nav {
     background-color: #fff;
     padding: 20px;
-    text-align: center;
 }
 
 nav ul {
@@ -44,19 +43,19 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin-bottom: 10px;
 }
 
 nav ul li a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #ff4500;
+.publish-date {
+    color: #666;
+    font-weight: normal;
+    margin-left: 10px;
 }
 
 main {
