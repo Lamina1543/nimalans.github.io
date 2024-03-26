@@ -1,5 +1,19 @@
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url('fonts/BerkeleyMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berkeley Mono';
+    src: url('fonts/BerkeleyMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Berkeley Mono', monospace;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
