@@ -50,6 +50,11 @@ nav ul li a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
 }
 
 .publish-date {
